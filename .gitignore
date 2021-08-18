@@ -1,0 +1,5 @@
+.idea
+.sonarqube
+**/obj
+**/bin
+**/coverage.opencover.xml
