@@ -12,5 +12,13 @@ namespace Math.Test
             var actual = math.Add(1, 2);
             Assert.Equal(3, actual);
         }
+
+        [Fact]
+        public void SubtractTest()
+        {
+            var math = new SimpleMath();
+            var actual = math.Subtract(2, 1);
+            Assert.Equal(1, actual);
+        }
     }
 }
