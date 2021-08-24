@@ -28,5 +28,11 @@ namespace Math.Test
             var actual = math.Multiply(2, 3);
             Assert.Equal(6, actual);
         }
+
+        [Fact]
+        public void ExcludeMeTest()
+        {
+            Assert.True(false);
+        }
     }
 }
